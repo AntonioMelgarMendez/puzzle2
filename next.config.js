@@ -2,7 +2,8 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-    output: 'export', // Agrega una coma al final de esta línea
+    output: 'export', 
+    distDir:'dist',// Agrega una coma al final de esta línea
    
     // Otras configuraciones...
 };
