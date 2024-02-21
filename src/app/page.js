@@ -13,6 +13,7 @@ export default function Home() {
   return (
   
     <div>
+      /*COMENTARIOS*/
       {selectedImage ? (
         <SelectImage imageUrl={selectedImage} />
       ) : (
